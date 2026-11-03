@@ -1,16 +1,42 @@
-# React + Vite
+## Prerequisites
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Before running this project locally, ensure you have the following installed on your machine:
+* **Node.js** (v18.0.0 or higher recommended)
+* **npm** (comes packaged with Node.js)
 
-Currently, two official plugins are available:
+## Local Setup Instructions
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Follow these steps to get the application running on your local development environment:
 
-## React Compiler
+### 1. Clone or Navigate to the Project Folder
+Open your terminal and navigate inside the main project directory where the `package.json` file resides:
+```bash
+cd Personal-Blog
+```
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 2. Install Project Dependencies
+Install all required node packages, including React utilities and the bootstrap formatting library:
+```bash
+npm install
+```
+```bash
+npm install bootstrap
+```
 
-## Expanding the ESLint configuration
+### 3. Start the Development Server
+Launch the Vite local development engine to boot up the application:
+```bash
+npm run dev
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 4. Open in Your Browser
+Once the server initializes, your terminal will display a local network link. Open your preferred web browser and go to:
+* **http://localhost:5173**
+
+## Project Architecture & Core Technologies
+* **React**: Compiles component-driven user interfaces.
+* **Vite**: Provides lightning-fast local asset bundles and hot module reloads (HMR).
+* **date-fns**: Manages strict calendar string formatting rules without heavy runtime overheads.
+* **App.css**: Houses custom visual view variables including modern CSS linear gradients.
+
+
