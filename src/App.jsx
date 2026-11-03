@@ -4,6 +4,11 @@ import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import './App.css'
 
+import Header from './components/Header'
+import ArticleList from './components/ArticleList'
+import Article from './components/Article'
+import About from './components/About'
+
 function App() {
   const [count, setCount] = useState(0)
 
