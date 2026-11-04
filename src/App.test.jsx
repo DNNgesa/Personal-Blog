@@ -1,7 +1,7 @@
 import React from 'react';
 import { describe, test, expect } from 'vitest';
 import { render, screen } from '@testing-library/react';
-import '@testing-library/jest-dom';
+import '@testing-library/jest-dom/vitest';
 import Header from './components/Header';
 import About from './components/About';
 import Article from './components/Article';
