@@ -1,0 +1,60 @@
+:root {
+  --blog-primary: #0070f3;
+  --blog-text-main: #212529;
+  --blog-text-muted: #6c757d;
+  --blog-bg-aside: #f8f9fa;
+  --blog-border-color: #dee2e6;
+}
+
+body {
+  color: var(--blog-text-main);
+  background-color: #ffffff;
+  -webkit-font-smoothing: antialiased;
+}
+
+header {
+  border-bottom: 2px solid var(--blog-border-color);
+}
+
+header h1 {
+  font-weight: 800;
+  letter-spacing: -0.05rem;
+}
+
+aside {
+  background-color: var(--blog-bg-aside);
+  border-left: 4px solid var(--blog-primary);
+  border-radius: 0 4px 4px 0;
+  transition: transform 0.2s ease-in-out;
+}
+
+aside img {
+  object-fit: cover;
+  border: 1px solid var(--blog-border-color);
+  max-width: 215px; 
+}
+
+article {
+  border-bottom: 1px dashed var(--blog-border-color);
+}
+
+article:last-of-type {
+  border-bottom: none; 
+}
+
+article h3 {
+  color: var(--blog-primary);
+  font-weight: 700;
+  transition: color 0.15s ease-in-out;
+}
+
+article h3:hover {
+  color: #0056b3;
+  cursor: pointer;
+}
+
+article small {
+  color: var(--blog-text-muted);
+  font-weight: 500;
+  letter-spacing: 0.05em;
+}
