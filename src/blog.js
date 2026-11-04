@@ -1,28 +1,28 @@
 const blogData = {
-  name: "The Digital Canvas",
+  name: "When We Fell in Love with Cars: A Journey Through the Early 2000s Automotive Culture",
   image: "https://placeholder.com",
-  about: "Exploring front-end engineering, modular architecture, and modern UI design patterns.",
+  about: "Exploring the cultural impact of early 2000s car culture and its enduring influence on the automotive entertainment industry.",
   posts: [
     {
       id: 1,
-      title: "Getting Started with React Components",
-      date: "November 3, 2026",
-      minutes: 5,
-      preview: "Components are the building blocks of any React application. Learn how to split your UI into independent, reusable pieces."
+      title: "Gone in 60 Seconds",
+      date: "June 5, 2000",
+      minutes: 118,
+      preview: "A retired car thief revives his team of professionals as he is compelled to steal fifty top-notch vehicles in one night if he wishes to see his brother alive."
     },
     {
       id: 2,
-      title: "The Power of JSX and Props",
-      date: "November 4, 2026",
-      minutes: 12,
-      preview: "JSX lets us write HTML-like structures right inside Javascript, while props allow us to pass data seamlessly down to child elements."
+      title: "The Fast and the Furious",
+      date: "June 22, 2001",
+      minutes: 107,
+      preview: "A spate of high-speed robberies in LA brings street racer Dominic Toretto and his crew under the LAPD scanner. FBI agent Brian goes undercover and befriends Toretto in a bid to investigate the matter."
     },
     {
       id: 3,
-      title: "Styling React Applications Efficiently",
-      date: "November 5, 2026",
-      minutes: 27,
-      preview: "From global stylesheets to CSS Modules and CSS-in-JS, discover the best ways to keep your presentation clean."
+      title: "Top Gear",
+      date: "October 20, 2002",
+      minutes: N/A,
+      preview: "Three automotive journalists explore the automotive landscape and contemporary trends with a healthy dose of British humour."
     }
   ]
 };
